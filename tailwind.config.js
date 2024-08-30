@@ -15,4 +15,5 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: ['text-base', 'text-lg', 'text-xl']
 };
