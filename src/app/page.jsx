@@ -1,10 +1,10 @@
-import Index from "@/components/index/page"
-
+import Index from '../../src/components/index/page'
 export default function Home() {
-  return (
 
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Index />
+  return (
+    <main>
+<Index></Index>
+      {/* Resto de tu contenido */}
     </main>
-  )
+  );
 }

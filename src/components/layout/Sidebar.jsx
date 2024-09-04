@@ -102,27 +102,27 @@ const Sidebar = () => {
 
         <div className="p-5 border-t border-gray-700 mt-10">
           <div className="flex justify-around">
-          <button 
-  onClick={() => changeFontSize('normal')}
-  className={`px-3 py-1 text-white border border-white rounded hover:bg-gray-800 focus:outline-none  ${fontSize === 'normal' ? 'bg-gray-700' : ''}`}>
-  <span className="sr-only">Tamaño de texto normal</span>
-  A
-</button>
+              <button 
+              onClick={() => changeFontSize('normal')}
+              className={`px-3 py-1 text-white border border-white rounded hover:bg-gray-800 focus:outline-none  ${fontSize === 'normal' ? 'bg-gray-700' : ''}`}>
+              <span className="sr-only">Tamaño de texto normal</span>
+              A
+            </button>
 
-<button 
-  onClick={() => changeFontSize('large')}
-  className={`px-3 py-1 text-white border border-white rounded hover:bg-gray-800 focus:outline-none  ${fontSize === 'large' ? 'bg-gray-700' : ''}`}>
-  <span className="sr-only">Tamaño de texto grande</span>
-  <span className="text-lg">A</span>
-</button>
+            <button 
+              onClick={() => changeFontSize('large')}
+              className={`px-3 py-1 text-white border border-white rounded hover:bg-gray-800 focus:outline-none  ${fontSize === 'large' ? 'bg-gray-700' : ''}`}>
+              <span className="sr-only">Tamaño de texto grande</span>
+              <span className="text-lg">A</span>
+            </button>
 
-<button 
-  onClick={() => changeFontSize('extra-large')}
-  className={`px-3 py-1 text-white border border-white rounded hover:bg-gray-800 focus:outline-none  ${fontSize === 'extra-large' ? 'bg-gray-700' : ''}`}
->
-  <span className="sr-only">Tamaño de texto extra grande</span>
-  <span className="text-xl">A</span>
-</button>
+            <button 
+              onClick={() => changeFontSize('extra-large')}
+              className={`px-3 py-1 text-white border border-white rounded hover:bg-gray-800 focus:outline-none  ${fontSize === 'extra-large' ? 'bg-gray-700' : ''}`}
+            >
+              <span className="sr-only">Tamaño de texto extra grande</span>
+              <span className="text-xl">A</span>
+            </button>
 
           </div>
         </div>
